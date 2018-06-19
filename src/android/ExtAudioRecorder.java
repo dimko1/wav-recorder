@@ -276,10 +276,10 @@ public class ExtAudioRecorder
 				else
 				{
 					if (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)) {
-						filePath = Environment.getExternalStorageDirectory().getAbsolutePath() + argPath;
-	        } else {
-	        	filePath = "/data/data/" + handler.cordova.getActivity().getPackageName() + argPath;
-	        }
+						filePath = Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + argPath;
+					} else {
+						filePath = "/data/data/" + handler.cordova.getActivity().getPackageName() + "/cache/" + argPath;
+					}
 				}
 				Log.d(ExtAudioRecorder.class.getName(), "writing to "+filePath);
 			}
