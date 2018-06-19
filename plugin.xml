@@ -6,7 +6,7 @@
 	
     <name>WAV Recorder</name>
     <description>Advanced Android Recording that provides access to the recorded buffer to the webview.</description>
-    <repo>https://github.com/petrica/wav-recorder.git</repo>
+    <repo>https://github.com/dimko1/wav-recorder.git</repo>
     <author>Martinescu Petrica (petrica@martinescu.com)</author>
     <license>MIT</license>
 
